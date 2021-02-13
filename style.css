@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+.container{
+    background: url("bg-pattern-bottom.svg") no-repeat,
+    url("bg-pattern-top.svg") no-repeat ;
+    background-position: bottom -482px right -238px, left -300px top -280px;
+    display:flex;
+    background-color: rgb(21, 142, 153);
+    width: 100%;
+    max-width: 1440px;
+    min-width: 375px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.card{
+    width:500px;
+    height: 500px;
+    background-color:rgb(255, 255, 255);
+    border-radius:20px;
+    border: none;
+    box-shadow: 0 0 1em rgb(110, 110, 110);
+}
+
+.partedecima{
+    width:100%;
+    height: 38%;
+    background-image: url(imagemdotopo.svg);
+    background-size: contain;
+    border-radius:20px 20px 0px 0px;
+}
+
+.meio{
+    display:flex;
+    width:100%;
+    height:70px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.pessoa{
+    width:145px;
+    height:145px;
+    background-color: aquamarine;
+    border-radius: 100px;
+    border: solid 7px white;
+    background-image: url(image-victor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 40px;
+}
+
+.centro{
+    text-align: center;
+    margin-top:45px;
+    margin-bottom:45px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#color{
+    color: #adadad;
+    font-weight: normal;
+    margin-top:0px;
+}
+
+spam{
+    color: #adadad;
+    font-weight: normal;
+}
+
+.partedebaixo{
+    display:flex;
+    width:100%;
+    height: 28%;
+    background-color:rgb(255, 255, 255);
+    border-radius:0px 0px 20px 20px;
+    border-top: solid 1px rgb(221, 221, 221);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
